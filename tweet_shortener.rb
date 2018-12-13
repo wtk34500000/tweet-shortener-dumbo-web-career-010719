@@ -5,8 +5,12 @@ def dictionary
     "to": "2",
     "two": "2",
     "too": '2',
+<<<<<<< HEAD
     "for": "4",
     "For": "4",
+=======
+    "for": "4", 
+>>>>>>> f0e34c7efe759b585465ad46beb8a001f457327d
     "four": '4',
     'be': 'b',
     'you': 'u',
@@ -37,6 +41,7 @@ def selective_tweet_shortener(tweets)
 end
 
 def bulk_tweet_shortener(array_tweets)
+<<<<<<< HEAD
    array_tweets.each do |tweets|
      puts word_substituter(tweets)
    end
@@ -52,3 +57,8 @@ end
 
 
 
+=======
+ puts word_substituter(array_tweets.join(" "))
+end
+
+>>>>>>> f0e34c7efe759b585465ad46beb8a001f457327d
